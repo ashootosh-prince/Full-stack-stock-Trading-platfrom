@@ -15,8 +15,51 @@ code {
 .nav-link {
   margin-left: 40px;
 }
+
 .footer-link a {
   text-decoration: none;
   margin-bottom: 20px;
   color: #5e6472;
   }
+* p a {
+  text-decoration: none;
+  color: #3c81d6;
+}
+
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#supportHero a {
+  color: white;
+}
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+#supportHero input {
+  padding: 20px 50px;
+  width: 110%;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0px solid;
+  margin: 20px 0px 10px 0px;
+  outline: none;
+}
+#searchbox a {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-underline-offset: 10px;
+  line-height: 3;
+  text-decoration-thickness: 5%;
+}
+#searchbox p a{
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 1;
+}
+#searchbox p {
+  margin-left: 20px;
+}

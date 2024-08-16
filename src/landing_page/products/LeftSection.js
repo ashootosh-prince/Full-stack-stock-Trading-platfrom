@@ -2,15 +2,16 @@ import React from 'react';
 
 function LeftSection({
     imageURL,
-    productDesription,
     productName,
-    tryDemo, learnMore,
+    productDesription,
+    tryDemo, 
+    learnMore,
     googlePlay,
     appStore
     }) {
     return ( 
         <dev className="container mt-5">
-            <div className='row'>
+            <div className='row p-5'>
                 <div className='col-4 p-5'>
                     <img src={imageURL}/>
                 </div>
@@ -24,7 +25,7 @@ function LeftSection({
                     </div>
                     <div className='mt-3'>
                     <a href={googlePlay}>
-                        <img src='media\images\googlePlayBadge.svg'/>
+                        <img src='media\images\googlePlayBadge.svg' />
                         </a>
                     <a href={appStore} style={{marginLeft:"50px"}}>
                         <img src='media\images\appstoreBadge.svg'/>
